@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f66b9f21-3bf2-40ac-9a18-8e9bbe5342b6" name="https://github.com/klimenkoMA/WeatherTGBot.git" url="https://github.com/klimenkoMA/WeatherTGBot.git">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
