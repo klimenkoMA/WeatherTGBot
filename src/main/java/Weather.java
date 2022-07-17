@@ -9,12 +9,10 @@ import java.util.Scanner;
 public class Weather {
 
 
-	//c10f0bab5383776ad8edd21ee1862c40
-	//b0fc0f141b45ef5975c88b61a00d044a
-
 	public static String getWeather(String message, Model model) throws IOException {
 
-		URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q=" + message + "&units=metric&appid=b0fc0f141b45ef5975c88b61a00d044a");
+		URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q=" + message + 
+				  "&units=metric&appid=");
 
 		Scanner scanner = new Scanner((InputStream) url.getContent());
 		String result = "";
